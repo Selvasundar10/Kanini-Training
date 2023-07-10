@@ -1,0 +1,56 @@
+table,
+th, td
+ {
+    border: 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
+
+.order {
+    text-align: center;
+    position: absolute;
+
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: blue;
+    padding: 50px;
+    font-family: Verdana;
+    /* text-align: center; */
+}
+
+button {
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 20%;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#result {
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana;
+}

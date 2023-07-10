@@ -1,0 +1,39 @@
+body{
+    height: 200px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+.calculatorcontainer {
+    border: 2px solid;
+    text-align: center;
+    font-family: arial, tahoma, sans-serif;
+    height: 320px;
+    width: 450px;
+    margin-left: 550px;
+    margin-top: 200px;
+    border-radius: 20px;
+}
+h3{
+    margin-top: 20px;
+
+}
+label {
+    cursor: default;
+}
+input{
+    border-radius: 7px;
+}
+#bmi {
+    margin: 0 auto;
+    width: px;
+    font-family: 'Lily Script One', cursive;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(43, 21, 21);
+}
+
+#bmi:hover {
+    color: rgb(0, 47, 134);
+}
+

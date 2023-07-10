@@ -1,0 +1,86 @@
+@import url('https://fonts.cdnfonts.com/css/bahnschrift');
+* {
+    font-weight: bold;
+}
+
+header {
+    background-color: #ff6347;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+}
+
+body {
+    background-color: #9370DB;
+
+}
+
+table,
+th,
+td {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.table2,
+.id2 {
+    border: 1px solid white;
+    background-color: #f58571;
+    border-collapse: collapse;
+}
+
+#nonVegAdult,
+#nonVegKids,
+#VegAdult,
+#VegKids {
+
+    width: 50px;
+
+}
+
+td {
+    padding-bottom: 5px;
+
+}
+
+#customerName,
+#contactNo,
+#bookingDate,
+#session1,
+#session1,
+#session1,
+#occasion,
+.table2,
+#reset {
+    margin-left: 120px;
+
+}
+
+#parking {
+    margin-left: 120px;
+}
+
+#submit {
+    font-weight: bold;
+    font-family: Bahnschrift;
+    background-color: #ffdead;
+    width: 120px;
+    height: 32px;
+}
+
+#reset {
+    font-weight: bold;
+    font-family: Bahnschrift;
+    background-color: #ffdead;
+    width: 120px;
+    height: 32px;
+}
+#result {
+    font-weight: bold;
+    font-family: Bahnschrift;
+    color: #800000;
+    font-size: 24px;
+}

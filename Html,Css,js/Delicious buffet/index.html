@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/bahnschrift" rel="stylesheet">
+    <title>Delicious Buffet Restaurant</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <form action="" onsubmit="return billCalculation()">
+        <div class="table">
+
+
+            <table class="forms">
+                <thead>
+
+                    <header>
+                        <h1>Delicious Buffet Restaurant</h1>
+                    </header>
+
+                </thead>
+
+                <body>
+                    <tbody>
+                        <tr>
+                            <td><label for="name">Customer Name</label></td>
+                            <td><input type="text" name="name" id="customerName" placeholder="Enter your name" required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="number">Contact No</label></td>
+                            <td><input type="tel" name="number" id="contactNo" placeholder="Enter your mobile number" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> <label for="date">Date</label></td>
+                            <td><input type="date" id="bookingDate" name="date"></td>
+                        </tr><br>
+                        <tr>
+                            <td> <label for="date">Timings</label></td>
+
+                            <td><input type="radio" id="session1" name="session" value="">
+                                <label for="session1">1-4pm</label>
+                                <input type="radio" id="session2" name="session" value="">
+                                <label for="session2">4-7pm</label>
+                                <input type="radio" id="session3" name="session" value="">
+                                <label for="session3">7-10pm</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Vegetarian</label></td>
+                            <td>
+                                <table class="table2">
+                                    <tr >
+                                        <td class="id2">
+                                            <label> Adult</label>
+                                        </td>
+                                        <td class="id2">
+                                            <input type="number" min="0" class="inpwidth" id="VegAdult" required>
+                                        </td>
+                                    </tr>
+                                    <tr >
+                                        <td class="id2">
+                                            <label>Kids(5-9yrs)</label>
+                                        </td>
+                                        <td class="id2">
+                                            <input type="number" min="0" class="inpwidth" id="VegKids" required>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td><label>Non-Vegetarian</label></td>
+                            <td>
+                                <table class="table2">
+                                    <tr>
+                                        <td class="id2">
+                                            <label> Adult</label>
+                                        </td>
+                                        <td class="id2">
+                                            <input type="number" min="0" class="inpwidth" id="nonVegAdult" required>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="id2">
+                                            <label>Kids(5-9yrs)</label>
+                                        </td>
+                                        <td class="id2">
+                                            <input type="number" min="0" class="inpwidth" id="nonVegKids" required>
+                                        </td>
+                                    </tr>
+                               
+                            </td>
+                        </tr>
+                    </table>
+                        <tr>
+                        <td>Occasion</td>
+                        <td><input list="occasion" name="occasion" id="occasion" autocomplete="on"></td>
+
+                        <datalist id="occasion">
+                            <option value="Team dinner"></option>
+                            <option value="Family reunion"></option>
+                            <option value="Party Birthday"></option>
+                            <option value="celebration"></option>
+                            <option value="Team lunch"></option></td>
+                        </datalist>
+                    </tr>
+                        <tr>
+                            <td><label for="Parking"> Parking</label></td>
+                            <td><input type="checkbox" id="parking" value="Parking" required>Parking Required </td>
+
+                        </tr>
+                        <tr>
+                            <td> <input type="submit" value="submit" id="submit"></td>
+                                <td><input type="reset" value="clear" id="reset"></td>
+                        </tr>
+                    </tbody>
+            </table>
+            <div id="result" > </div>
+           
+       
+
+      
+</body>
+</form></html>
