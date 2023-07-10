@@ -1,0 +1,8 @@
+E:\C#\Assignment\LINQtoSql\LINQtoSql\bin\Debug\LINQtoSql.exe.config
+E:\C#\Assignment\LINQtoSql\LINQtoSql\bin\Debug\LINQtoSql.exe
+E:\C#\Assignment\LINQtoSql\LINQtoSql\bin\Debug\LINQtoSql.pdb
+E:\C#\Assignment\LINQtoSql\LINQtoSql\obj\Debug\LINQtoSql.csproj.AssemblyReference.cache
+E:\C#\Assignment\LINQtoSql\LINQtoSql\obj\Debug\LINQtoSql.csproj.SuggestedBindingRedirects.cache
+E:\C#\Assignment\LINQtoSql\LINQtoSql\obj\Debug\LINQtoSql.csproj.CoreCompileInputs.cache
+E:\C#\Assignment\LINQtoSql\LINQtoSql\obj\Debug\LINQtoSql.exe
+E:\C#\Assignment\LINQtoSql\LINQtoSql\obj\Debug\LINQtoSql.pdb
