@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Temperature Form</title>
+  <style>
+ 
+      *{
+        font-family:Arial, Helvetica, sans-serif;       
+    }
+    .form {
+      width: 400px;
+      /* margin: 0 auto ; */
+      padding: 20px;
+      background-color:rgba(231, 76, 33, 0.584);
+      height: 580px;
+    }
+    .form input {
+      width: 80%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    .box{
+      padding: 10px;
+      border: 1px solid #151515;
+      border-radius: 4px;
+      font-size: 16px;
+      width: 300px;
+    }
+    .but{
+      padding: 3px;
+      border-radius: 1px solid black;
+      
+    }
+   
+  </style>
+</head>
+<body>
+<div class="form">
+  <h2>Question 1</h2>
+  <h2>Temperature Conversion</h2>
+  <form [formGroup]="myForm" novalidate>
+    <label>Input a Temperature  :</label>
+    <input type="text" class="box" name="number" formControlName="number" required>
+    <div *ngIf="!number?.['valid'] && (number?.['dirty'] || number?.['touched'])">
+      <div *ngIf="number?.errors?.['notANumber']">
+        Please Input a number
+      </div>
+    </div>
+    <br>
+
+    <label for="unit">Unit for input : </label>
+    <select formControlName="unit">
+      <option value="celsius">Celsius</option>
+      <option value="fahrenheit">Fahrenheit</option>
+    </select>
+
+    <br><br>
+    <button type="submit" class="but" [disabled]="!myForm.valid" (click)="convertTemperature()">Submit</button>
+  </form>
+
+  
+
+  <div *ngIf="convertedValue">
+    Converted Value: {{ convertedValue }} {{convertedUnit }}
+  </div>
+
+</div>
+
+</body>
+</html>
