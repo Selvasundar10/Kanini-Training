@@ -1,0 +1,15 @@
+E:\C#\Assignment\studdetails\studdetails\bin\Debug\net6.0\studdetails.exe
+E:\C#\Assignment\studdetails\studdetails\bin\Debug\net6.0\studdetails.deps.json
+E:\C#\Assignment\studdetails\studdetails\bin\Debug\net6.0\studdetails.runtimeconfig.json
+E:\C#\Assignment\studdetails\studdetails\bin\Debug\net6.0\studdetails.dll
+E:\C#\Assignment\studdetails\studdetails\bin\Debug\net6.0\studdetails.pdb
+E:\C#\Assignment\studdetails\studdetails\obj\Debug\net6.0\studdetails.csproj.AssemblyReference.cache
+E:\C#\Assignment\studdetails\studdetails\obj\Debug\net6.0\studdetails.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\Assignment\studdetails\studdetails\obj\Debug\net6.0\studdetails.AssemblyInfoInputs.cache
+E:\C#\Assignment\studdetails\studdetails\obj\Debug\net6.0\studdetails.AssemblyInfo.cs
+E:\C#\Assignment\studdetails\studdetails\obj\Debug\net6.0\studdetails.csproj.CoreCompileInputs.cache
+E:\C#\Assignment\studdetails\studdetails\obj\Debug\net6.0\studdetails.dll
+E:\C#\Assignment\studdetails\studdetails\obj\Debug\net6.0\refint\studdetails.dll
+E:\C#\Assignment\studdetails\studdetails\obj\Debug\net6.0\studdetails.pdb
+E:\C#\Assignment\studdetails\studdetails\obj\Debug\net6.0\studdetails.genruntimeconfig.cache
+E:\C#\Assignment\studdetails\studdetails\obj\Debug\net6.0\ref\studdetails.dll
